@@ -1,12 +1,6 @@
-export const metadata = {
-  title: "FCAST - Cost Forecasting",
-  description: "Financial forecasting and planning tool",
-};
+import { createClient } from '@supabase/supabase-js';
 
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body style={{ backgroundColor: "#F5F2E3" }}>{children}</body>
-    </html>
-  );
-}
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
+const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
+
+export const supabase = createClient(supabaseUrl, supabaseAnonKey);
