@@ -33,6 +33,17 @@ export default function Home() {
           >
             Create Account
           </a>
+          
+          <a 
+            href="/dashboard" 
+            className="px-8 py-3 rounded-md font-medium text-center border-2 bg-green-100"
+            style={{
+              borderColor: "#22c55e",
+              color: "#22c55e"
+            }}
+          >
+            Demo
+          </a>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
