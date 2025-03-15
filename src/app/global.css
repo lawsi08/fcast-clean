@@ -1,0 +1,100 @@
+/* app/globals.css */
+:root {
+    /* Colors */
+    --background: #f5f5dc; /* Light beige */
+    --primary: #d4af37; /* Gold */
+    --secondary-text: #6b7280; /* Gray */
+    --card-background: #ffffff; /* White */
+    --text: #000000; /* Black for main text */
+    --button-text: #ffffff; /* White for button text */
+  
+    /* Typography */
+    --font-family: "Poppins", sans-serif;
+    --font-size-base: 16px;
+    --font-size-heading: 24px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    background-color: var(--background);
+    color: var(--text);
+    font-size: var(--font-size-base);
+  }
+  
+  /* Utility classes */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: var(--card-background);
+    border-radius: 10px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    color: var(--primary);
+    font-size: var(--font-size-heading);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: var(--text);
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: var(--primary);
+  }
+  
+  .button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: var(--primary);
+    color: var(--button-text);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #b8972f; /* Slightly darker gold */
+  }
+  
+  .link {
+    color: var(--primary);
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: var(--secondary-text);
+    font-size: 0.875rem;
+  }
