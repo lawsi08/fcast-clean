@@ -1,5 +1,5 @@
-// app/layout.js
-import "../../globals.css";
+// src/app/layout.js
+import "./globals.css";
 import { Poppins } from "next/font/google";
 
 const poppins = Poppins({
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <div className="container">
           {children}
           <footer className="footer">
-            &copy; 2025 FCAST.co.uk. All rights reserved.
+            © 2025 FCAST.co.uk. All rights reserved.
           </footer>
         </div>
       </body>

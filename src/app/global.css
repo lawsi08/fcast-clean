@@ -1,14 +1,12 @@
-/* app/globals.css */
+/* src/app/globals.css */
 :root {
-    /* Colors */
-    --background: #f5f5dc; /* Light beige */
-    --primary: #d4af37; /* Gold */
-    --secondary-text: #6b7280; /* Gray */
-    --card-background: #ffffff; /* White */
-    --text: #000000; /* Black for main text */
-    --button-text: #ffffff; /* White for button text */
+    --background: #f5f5dc;
+    --primary: #d4af37;
+    --secondary-text: #6b7280;
+    --card-background: #ffffff;
+    --text: #000000;
+    --button-text: #ffffff;
   
-    /* Typography */
     --font-family: "Poppins", sans-serif;
     --font-size-base: 16px;
     --font-size-heading: 24px;
@@ -23,7 +21,6 @@
     font-size: var(--font-size-base);
   }
   
-  /* Utility classes */
   .container {
     display: flex;
     justify-content: center;
@@ -78,7 +75,7 @@
   }
   
   .button:hover {
-    background-color: #b8972f; /* Slightly darker gold */
+    background-color: #b8972f;
   }
   
   .link {
